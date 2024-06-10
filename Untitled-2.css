@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-bar{
+	height: 65px;line-height: 50px;background-color: #F15C22
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: white; background-color: #F15C22		
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 30px; color: #F15C22
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+background-color: #F15C22;padding-top: 0;padding-bottom: 0 	
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	color: #F15C22;background-color: white
+}
+footer .navbar-nav .nav-item .nav-link{
+	color: white; text-decoration: none;
+}
+.tyu{
+	width: 600px
+}
+.img-100{
+	width: 100%
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: coral
+}
+#service a{
+	text-decoration: none;color: #F15C22
+}
+#service a:hover{
+	color: coral
+}
+#service-1 a{
+	text-decoration: none;color: #F15C22
+}
+#service-1 a:hover{
+	color: coral
+}
+#service-2 a{
+	text-decoration: none;color: #F15C22
+}
+#service-2 a:hover{
+	color: coral
+}
+#why{
+width: 100%;min-height: 100px;background-image: urL("../image 2/banner comic.jpg") ;backgrond-repeat:no-repeat;background-size:
+	cover;background-posïtion: center top
+}
+#why-1{
+width: 100%;min-height: 120px;background-image: urL("../image 2/banner mon.webp") ;backgrond-repeat:no-repeat;background-size:
+	cover;background-posïtion: center top
+}
+#cam-nhan .nd{
+	padding: 10px 20px;display: flex;flex-direction: column;justify-content: center;align-items: center
+}
+#cam-nhan .nd h4 a{
+	text-decoration: none; color: #F15C22
+}
+#cam-nhan .nd img{
+	width: 100%;height: 500px;
+}
+#cn .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #4853F1
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
